@@ -15,6 +15,8 @@ export default function App() {
             <NavigationContainer>
                 <Tab.Navigator>
                     <Tab.Screen name='Home' component={Home}/>
+                    <Tab.Screen name='Chat' component={Chat}/>
+                    <Tab.Screen name='Contact' component={Contact}/>
                 </Tab.Navigator>
             </NavigationContainer>
         </SafeAreaProvider>
